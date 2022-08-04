@@ -1,0 +1,46 @@
+.address-list {
+	background-color:var(--background-section);
+	.address {
+		font-style: normal;
+		color: var(--button-white-color);
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 1.71;
+		
+	}
+	.mail {
+		&:hover {
+			color: var(--accent-color);
+		}
+		&:focus {
+			color: var(--accent-color);
+		}
+		font-style: normal;
+		color: rgba(255, 255, 255, 0.6);
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 1.71;
+	}
+	.tel {
+		&:hover {
+			color: var(--accent-color);
+		}
+		&:focus {
+			color: var(--accent-color);
+		}
+		font-style: normal;
+		color: rgba(255, 255, 255, 0.6);
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 1.71;
+	}
+}
+
+.adress-item:not(:last-child){
+    margin-bottom: 9px;
+ }
+
+ .address-list{
+    background-color: var(--background-section);
+
+ }

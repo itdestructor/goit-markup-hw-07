@@ -1,0 +1,52 @@
+.button {
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	font-family: inherit;
+	border-radius: 4px;
+	border: 0;
+}
+.button.active {
+	color: var(--button-white-color);
+	background-color: var(--accent-color);
+}
+.button-primary {
+	color: var(--button-white-color);
+	background-color: var(--accent-color);
+	font-weight: 700;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	padding: 10px 32px;
+	min-width: 216px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+	&:hover {
+		color: var(--title-text-color);
+		background-color: var(--background-color);
+	}
+	&:focus {
+		color: var(--title-text-color);
+		background-color: var(--background-color);
+	}
+}
+.button-secondary {
+	color: var(--title-text-color);
+	background-color: var(--background-color);
+	font-weight: 500;
+	line-height: 1.62;
+	padding: 6px 22px;
+	border: transparent;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		color: var(--button-white-color);
+		background-color: var(--accent-color);
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+		border-radius: 4px;
+	}
+	&:focus {
+		color: var(--button-white-color);
+		background-color: var(--accent-color);
+		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+		border-radius: 4px;
+	}
+}
